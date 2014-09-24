@@ -11,7 +11,7 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
-load('data1.mat');
+load('testing_data.mat');
 m = size(X, 1);
 
 % Randomly select 100 data points to display
