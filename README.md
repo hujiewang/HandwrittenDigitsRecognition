@@ -9,6 +9,20 @@ The cost function is computed by using Feedforward and gradiant is computed by d
 
 Note that the cost function is also regularized.
 
+You can change the number of iteration in the file training.m at 
+
+    options = optimset('MaxIter', 50);
+    
+and change '50' to the number you want.
+
+Some experiments done before:
+
+Iterations       Accuracy on the training set
+----------------------------------------------
+10                          76.3%
+50                          95.3%
+100                         98.7%
+
 This project is part of Stanford Machine Learning course on Coursera.
   
 ## Tutorial
