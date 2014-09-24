@@ -23,7 +23,7 @@ displayData(X(sel, :));
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
-%% ================ Part 2: Loading Pameters ================
+%% ================ Loading Pameters ================
 % In this part of the exercise, we load some pre-initialized 
 % neural network parameters.
 
@@ -32,16 +32,8 @@ fprintf('\nLoading Saved Neural Network Parameters ...\n')
 % Load the weights into variables Theta1 and Theta2
 load('weights.mat');
 
-%% ================= Part 3: Implement Predict =================
 
-pred = predict(Theta1, Theta2, X);
-
-fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
-
-fprintf('Program paused. Press enter to continue.\n');
-pause;
-
-%  Randomly permute examples
+%% ================ Randomly Permute Examples ================
 rp = randperm(m);
 
 for i = 1:m
