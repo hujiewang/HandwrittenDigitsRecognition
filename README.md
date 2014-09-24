@@ -1,4 +1,4 @@
-HandwrittenDigitsRecognition
+Handwritten Digits Recognition
 ============================
 
 Implementation of a Neural Network with three layers for handwritten digits recognition.
