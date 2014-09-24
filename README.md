@@ -11,16 +11,16 @@ This project is part of Stanford Machine Learning course on Coursera.
   
   2.Type
   
-    ```
+    
     training
-    ```
+    
     
   in the Octave to train a Neural Network.
   
   3.Type
   
-    ```
+    
     prediction
-    ```
+    
     
   in the Octave to predict a random picture of a digit.
