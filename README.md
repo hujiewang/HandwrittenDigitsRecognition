@@ -17,15 +17,15 @@ and change '50' to the number you want.
 
 Some experiments done before:
 
-Iterations       Accuracy on the training set
+    Iterations       Accuracy on the training set
 
-----------------------------------------------
+    ----------------------------------------------
 
-10                          76.3%
+    10                          76.3%
 
-50                          95.3%
+    50                          95.3%
 
-100                         98.7%
+    100                         98.7%
 
 This project is part of Stanford Machine Learning course on Coursera.
   
