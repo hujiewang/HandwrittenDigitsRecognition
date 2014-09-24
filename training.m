@@ -1,7 +1,6 @@
 %% Initialization
 clear ; close all; clc
 
-%% Setup the parameters you will use for this exercise
 input_layer_size  = 400;  % 20x20 Input Images of Digits
 hidden_layer_size = 25;   % 25 hidden units
 num_labels = 10;          % 10 labels, from 1 to 10   
@@ -39,8 +38,6 @@ initial_nn_params = [initial_Theta1(:) ; initial_Theta2(:)];
 %
 fprintf('\nTraining Neural Network... \n')
 
-%  After you have completed the assignment, change the MaxIter to a larger
-%  value to see how more training helps.
 options = optimset('MaxIter', 50);
 
 %  You should also try different values of lambda
@@ -67,7 +64,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 
-%% ================= Part 9: Visualize Weights =================
+%% ================= Visualize Weights =================
 %  You can now "visualize" what the neural network is learning by 
 %  displaying the hidden units to see what features they are capturing in 
 %  the data.
