@@ -9,7 +9,7 @@ The cost function is computed by using Feedforward and gradiant is computed by d
 
 Note that the cost function is also regularized.
 
-You can change the number of iteration in the file training.m at 
+You can change the number of iterations in the file 'training.m' at 
 
     options = optimset('MaxIter', 50);
     
